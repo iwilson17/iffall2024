@@ -1,0 +1,117 @@
+html {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+
+
+h1 {
+    font-weight: 1500; 
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.2;
+}
+
+
+.text-container { 
+    padding-top: 0.75rem;
+    padding-bottom: 1.5rem;
+    display: flex;  
+    justify-content: space-around;           
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 60px;
+    text-align: left;
+} 
+
+
+.inspiration1 {
+    text-align: left;
+    line-height: 1;
+    padding-bottom: 3rem;
+    padding-top: 0.5rem;
+}
+
+.inspiration2 {
+    text-align: left;
+    line-height: 1;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+ 
+ 
+footer {
+    text-align: center;
+    opacity: 50%;
+    padding-top: 3rem;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+.details {
+    padding-top: 0.25rem;
+    line-height: 1.0;
+}
+
+.section1 {
+    flex: 100%;
+    line-height: 0.75;
+    padding-top: 0.4rem;
+}
+
+.section2 {
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h4 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+.ingrediants2 {
+    padding-top: 0.01rem;
+}
+
+.ingrediants3 {
+    padding-top: 0.01rem;
+}
+
+
+a {
+    color: black;
+    font-size: 18px;
+}
+
+
+.source1 {
+    padding-bottom: 0.1rem;
+    line-height: 22px;
+}
+
+.source2 {
+    padding-bottom: 0.1rem;
+    line-height: 22px;
+}
+
+.img {
+    text-align: center;
+}
