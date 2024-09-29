@@ -1,0 +1,18 @@
+html {
+    padding: 3rem;
+}
+
+
+.images { 
+    display: grid;  
+    justify-content: space-around;           
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
+    text-align: center;
+    padding: 3rem;
+}   
+
+
+h2 {
+    font-weight: 500;
+}
