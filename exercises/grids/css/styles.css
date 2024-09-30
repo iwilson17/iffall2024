@@ -23,16 +23,16 @@
     font-size: 0;
 }
 
-.grid using-flex {
+.grid.using-flex {
     display: flex; 
     flex-wrap: wrap; 
 }
 
-.grid using-grid {
+.grid.using-grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.using-grid li {
+.grid.using-grid li {
     width: 100%; 
 }
