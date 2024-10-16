@@ -1,0 +1,41 @@
+body {
+    max-width: 800px; 
+    width: 90vw; 
+    margin: 0 auto; 
+
+}
+
+@media (min-width: 640px) {
+    body {
+        background-color: #eaf6ff;
+    }
+}
+
+h1 {
+    font-size: 2.5rem; 
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem; 
+    }
+}
+
+li { 
+    display: grid;          
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 10px;
+} 
+
+aside {
+    width: 170px; 
+    margin: 0; 
+    font-size: 0.8rem; 
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin: 0; 
+}
+
