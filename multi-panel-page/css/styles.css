@@ -1,0 +1,229 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+
+header {
+    text-decoration: center;
+    text-align: center;
+    padding-top: 126px; 
+    padding-bottom: 190px;
+    
+    background-size: cover;
+    background-image: url(https://library.wustl.edu/wp-content/uploads/2021/01/20180906_OlinLibrary_JWB-1-min.jpg);
+    
+    color: rgb(255, 242, 208);
+}
+
+h1 {
+    font-size: 75px; 
+    font-weight: 600; 
+    margin: 0 8 16px 1;
+    margin-top: 40px;
+    line-height: 0;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    letter-spacing: 3.5px;
+
+
+ 
+}
+
+h2 {
+    font-size: 32px; 
+    padding-top: 4px;
+    margin: 0; 
+    line-height: 1; 
+    font-weight: 1000pt;
+    
+   
+}
+
+.section1 h3 {
+    font-size: 40px; 
+    letter-spacing: 1px;
+    padding-bottom: 2.5rem;
+    margin: 0; 
+    line-height: 1px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: center;
+    color: rgb(102, 69, 23)
+}
+
+.section1 {
+    width: 960px; 
+    margin: auto; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.background {
+    background-color: rgb(255, 242, 208);
+}
+
+.text1 {
+    font-size: 13.75pt; 
+    line-height: 1.38;
+    color: rgb(102, 69, 23)
+ 
+}
+
+
+.text2 {
+    font-size: 13.75pt; 
+    line-height: 1.38;
+    color: rgb(102, 69, 23)
+  
+}
+
+.text3 {
+    font-size: 13.75pt; 
+    line-height: 1.38;
+    color: rgb(102, 69, 23)
+  
+}
+
+
+.section2 {
+    width: 960px; 
+    margin: auto; 
+    padding-top: 50px;
+    padding-bottom: 45px;
+    
+    
+}
+
+.section3 h3 {
+    font-size: 38px; 
+    padding-bottom: 0rem;
+    padding-top: 45px;
+    margin: 0; 
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: center;
+    letter-spacing: 1px;
+    color: rgb(255, 242, 208); 
+}
+
+.section2 h3 {
+    font-size: 38px; 
+    padding-bottom: 1rem;
+    margin: 0; 
+    line-height: 1;
+    text-align: center;
+    text-decoration: center;
+    letter-spacing: 1.5px;
+    color:rgb(255, 242, 208);
+}
+
+.photo2 {
+    float: right; 
+    margin-right: 0rem; 
+    margin-left: 2rem; 
+    margin-top: 1.25rem; 
+    margin-bottom: 1rem; 
+}
+
+
+.section3-text {
+    margin: auto;
+    padding-top: 0.1rem;
+    padding-bottom: 3rem;
+    text-decoration: center;
+    text-align: center;
+    width: 700px;
+    font-size: 24.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: rgb(255, 242, 208);
+
+}
+
+.text4 {
+    width: 700px; 
+    line-height: 1.7; 
+    font-size: 16pt;
+    text-decoration: center;
+    text-align: center;
+    margin: auto; 
+}
+
+footer {
+    width: 960px; 
+    margin: auto; 
+    padding-top: 1.5rem;
+    color: rgb(102, 69, 23);
+}
+
+.photos {
+    float: left; 
+    margin-right: 0.75rem; 
+    margin-left: 0rem; 
+    margin-top: 1.4rem; 
+    margin-bottom: 0.1rem; 
+}
+
+
+.Photo-container { 
+    display: flex;  
+    justify-content: space-around;           
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    margin-bottom: 0px;
+  } 
+
+
+
+h4 {
+    font-size: 19px; 
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    color: rgb(255, 242, 208);
+    
+}
+
+.section2 p {
+    font-size: 19.5px;
+    margin-top: 4px;
+    color: rgb(102, 69, 23)
+
+    
+}
+
+.section3 {
+    background-color: rgb(102, 69, 23); 
+    padding-bottom: 27px;
+}
+
+p i {
+    font-size: .8em;
+    color:  rgb(102, 69, 23); 
+    margin-right: 3px;
+
+}
+
+
+footer p {
+    font-size: 17px;
+    padding-top: 1px;
+    letter-spacing: 0.25px;
+}
+
+.section2-background {
+    background-color: rgba(93, 175, 216, 0.805);
+}
+/*
+section {
+    margin: 0 auto; 
+    background-color: rgba (0, 0, 255, .25);
+}
+
+/*
+section.floated-photo {
+
+}
+
+section.thumbnail1-grid {
+    blackground-color: rgba (150, 0, 150, .25)
+}
