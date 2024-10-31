@@ -281,24 +281,38 @@
 			}
 		
 			a#btn_harleydavidson {
-				display: inline-block;
+				display: inline-flex; 
 				height: 15px;
 				margin: auto;
 				margin-top: 105px;
-				padding: 5px 10px 15px 10px;
+				padding: 5px 15px 15px 22px;
 				color: white; 
-				background-color: #000000; 
+				background-color: #f98500; 
 				font-size: 24px;
 				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 				font-weight: bold;
 				text-decoration: none;
-				border: 2px solid #ff7b1c;
+				border: 2px solid #ffffff;
+				position: relative; 
+				text-align: center;
 			}
 			a#btn_harleydavidson:hover {
-				color: #ffffff;
-				background-color: #ff7b1c;
+				background-color: #000000;
+			}
+
+			a#btn_harleydavidson i {
+				margin-left: -40px;
+				transition: transform 1s; 
+				color: black; 
+			}
+
+			a#btn_harleydavidson:hover i {
+				transform: translateX(400px);
 			}
 		
+
+
+
 			a#btn_tesla{
 				display: inline-block;
 				margin: auto;
@@ -339,6 +353,61 @@
 				background-color:#fff;
 			}
 
+			a#btn_tonight {
+				display: block;
+				justify-items: flex-start;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 22px;
+				padding-left: 20px;
+				background-color: #ffffff;
+				color: #0a175f;
+				text-align: left;
+				font-size: 15px;
+				transition: all .2s;
+				text-decoration: none;
+				font-weight: bold;
+				line-height: 1.2;
+			}
+			a#btn_tonight:hover {
+				background-color: #0a175f;
+				color: #fff;
+			}
+
+			.fa-star {
+				font-size: 12px;
+				padding-left: 4px;
+				line-height: 1; 
+			}
+
+
+			a#btn_npr{
+				display: inline-block;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 21px 10px 31px; 
+				font-size: 24px;
+				font-family: 'Helvetica', sans-serif; 
+				text-decoration: none;
+                font-size: 200;
+				background-color: #000000;
+				color: #ffffff;
+				letter-spacing: 0.75rem;
+				transition: letter-spacing 0.3s ease, font-weight 0.3s ease;
+			}
+
+			a#btn_npr:hover {
+				background-color: #ffffff;
+				color: #000000;
+				letter-spacing: 0.25rem;
+				font-weight: 900;
+			}
+
+	
 		</style>
 	</head>
 	<body>
@@ -384,7 +453,7 @@
 			</div>
 
 			<div class="button_container">
-				<a href="https://www.harley-davidson.com/us/en/index.html" target="_blank" id="btn_harleydavidson"><span>HARLEY DAVIDSON</span></a>
+				<a href="https://www.harley-davidson.com/us/en/index.html" target="_blank" id="btn_harleydavidson"><i class="fa-solid fa-motorcycle"></i><span>HARLEY DAVIDSON</span></a>
 			</div>
 			
 			<div class="button_container">
@@ -392,9 +461,16 @@
 			</div>
 
 			<div class="button_container">
-				<a href="https://www.tesla.com" target="_blank" id="btn_lyft"><i class="fa-brands fa-lyft"></i></a>
+				<a href="https://www.lyft.com" target="_blank" id="btn_lyft"><i class="fa-brands fa-lyft"></i></a>
 			</div>
 
+			<div class="button_container">
+				<a href="https://www.nbc.com/the-tonight-show" target="_blank" id="btn_tonight"><span>THE TONIGHT SHOW</span><i class="fa-solid fa-star"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.npr.org" target="_blank" id="btn_npr"><span>npr</span></a>
+			</div>
 		</main>	
 
 	</body>
