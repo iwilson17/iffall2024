@@ -13,6 +13,13 @@
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
 
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Bruno+Ace+SC&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		
 		
 		<style>
 
@@ -175,8 +182,8 @@
 				border: 2px solid #000000;
 				color: #ffffff;
 				font-size: 20px;
-				font-family: 'Montserrat', sans-serif;
-				font-weight: bold;
+				font-family: Arial, Helvetica, sans-serif; 
+				font-weight: 100;
 				text-decoration: none;
 				transition: all .5s;
 			}
@@ -199,7 +206,7 @@
 				font-size: 20px;
 				font-family: sans-serif; 
 				text-decoration: none;
-				transition: all .5s;
+				transition: all .5s, font-weight 0.2s ease;
                 font-weight:200;
 			}
 
@@ -208,6 +215,130 @@
                 transform: scale(1.15); 
                 font-weight:500; 
 			}
+
+			a#btn_oldnavy {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				border: 2px solid #00000000;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #003C71;
+				color: #fff;
+				font-size: 22px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_oldnavy:hover {
+				background-color: #ffffff00;
+				border: 2px solid #003C71;
+				color: #003C71;
+			}
+
+			a#btn_usarmy {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #393938;
+				color: #ffda52;
+				border: 3px solid #ffda52;
+				font-size: 22px;
+				font-family: 'Space Grostesk', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				
+			}
+			a#btn_usarmy:hover {
+				background-color: #ffda52;
+				border: 3px solid #393938;
+				color: #393938;
+			}
+
+
+			a#btn_nike {
+				display: inline-block;
+				height: 50px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 10px 10px 10px;
+				color: #000000;
+				font-size: 26px;
+				font-family: sans-serif;
+				font-style: italic;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			a#btn_nike:hover {
+				color: #ef9a3e;
+			}
+		
+			a#btn_harleydavidson {
+				display: inline-block;
+				height: 15px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 5px 10px 15px 10px;
+				color: white; 
+				background-color: #000000; 
+				font-size: 24px;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+				font-weight: bold;
+				text-decoration: none;
+				border: 2px solid #ff7b1c;
+			}
+			a#btn_harleydavidson:hover {
+				color: #ffffff;
+				background-color: #ff7b1c;
+			}
+		
+			a#btn_tesla{
+				display: inline-block;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 10px 40px; 
+				color: #000000;
+				font-size: 20px;
+				font-family: 'Bruno Ace SC', sans-serif; 
+				text-decoration: none;
+                font-weight:100;
+				letter-spacing: 0.25rem;
+				transition: letter-spacing 0.3s ease, font-weight 0.3s ease;
+			}
+
+			a#btn_tesla:hover {
+				color: #000000;
+                font-weight:700; 
+				letter-spacing: 1rem;
+			}
+
+			a#btn_lyft {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 25px;
+				background-color: #f813a4;
+				color: #fff;
+				text-align: center;
+				font-size: 40px;
+				transition: all .2s;
+			}
+			a#btn_lyft:hover {
+				color: #f813a4;
+				background-color:#fff;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -240,7 +371,30 @@
 				<a href="https://www.michaelkors.com" target="_blank" id="btn_michaelkors"><span>MICHAEL KORS</span></a>
 			</div>
 
-           
+			<div class="button_container">
+				<a href="https://oldnavy.gap.com" target="_blank" id="btn_oldnavy"><span>OLD NAVY</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.army.mil" target="_blank" id="btn_usarmy"><span>U.S. ARMY</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.nike.com" target="_blank" id="btn_nike"><span>NIKE</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.harley-davidson.com/us/en/index.html" target="_blank" id="btn_harleydavidson"><span>HARLEY DAVIDSON</span></a>
+			</div>
+			
+			<div class="button_container">
+				<a href="https://www.tesla.com" target="_blank" id="btn_tesla"><span>TESLA</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.tesla.com" target="_blank" id="btn_lyft"><i class="fa-brands fa-lyft"></i></a>
+			</div>
+
 		</main>	
 
 	</body>
