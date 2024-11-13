@@ -60,7 +60,7 @@ h5 {
 }
 .text-content {
     max-width: 60%; 
-    color: rgb(2, 53, 111)
+    color: rgb(255, 255, 255)
 }
 
 
@@ -98,6 +98,9 @@ h5 {
     }
     .text-content {
         max-width: 100%; 
+    }
+    .text-content p {
+        font-size: 1rem; 
     }
     h4 {
         font-size: 15px; 
@@ -172,7 +175,7 @@ header h1 {
 
 header h5 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 23px;
     padding-top: 0px;
 }
 
@@ -237,8 +240,12 @@ a#btn_spotify:hover {
 }
 
 .text-content {
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 60px;
-    padding-top: 10px;
+    padding-top: 40px;
     text-align: left;
+}
+
+.text-content p {
+    font-size: 18px; 
 }
