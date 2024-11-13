@@ -7,7 +7,7 @@ body {
     /* max-width: 800px; */
    /* width: 90vw;*/
     margin: 0 auto; 
-    background-color: #e9faff;
+    background-color: #ffffff;
 
 }
 
@@ -37,32 +37,18 @@ h5 {
     text-align: center; 
     font-weight: 300; 
 }
-.flex-container {
-    display: flex; 
-    align-items: flex-start;
-    padding-top: 0px;
-    background-color: #ed2828;
-}
-.left {
-    width: 50%;
-    margin-right: 20px; 
-}
-.right {
-    width: 50%;
-    margin-left: 20px; 
-    padding-top: 10px;
-}
-.right1 {
-    width: 50%;
-    margin-left: 20px; 
-    padding-top: 45px;
 
-}
 .text-content {
-    max-width: 60%; 
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255); 
+    justify-content: center; 
+    text-align: left;
 }
 
+.text-content_about {
+    color: rgb(255, 255, 255); 
+    justify-content: center; 
+    text-align: left;
+}
 
 
 
@@ -75,30 +61,6 @@ h5 {
     h5 {
         margin-bottom: 2px; 
     }
-    .flex-container {
-        flex-direction: column; 
-        align-items: center;  
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    .flex-container.steptwo {
-        flex-direction: column-reverse;
-    }
-    .left {
-        width: 100%; 
-        margin-right: 0; 
-    }
-    .right {
-        width: 100%;
-        margin-left: 0; 
-    }
-    .right1 {
-        width: 100%;
-        margin-left: 0px; 
-    }
-    .text-content {
-        max-width: 100%; 
-    }
     .text-content p {
         font-size: 1rem; 
     }
@@ -108,7 +70,9 @@ h5 {
     .color p {
         font-size: 18px; 
     }
-   
+   .checkers img {
+    width: 900px; 
+   }
 }
 
 h3 {
@@ -184,29 +148,21 @@ h4 {
     font-size: 25px
 }
 
-.color {
-    background-color:  rgb(231, 88, 80);
+.colorabout {
+    background-color:  rgb(255, 229, 211);
     padding-top: 50px;
-    padding-bottom: 50px;
-    color:rgba(255, 255, 255, 0.872);
+    padding-bottom: 60px;
+    color: rgb(131, 7, 7); 
     font-size: 20px;
     text-align: center;
 }
-
-.benefits_container {
-    border: 1px solid #ddd;
-    margin: 0 10px 10px 0;
-    padding: 20px;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-}
-
-.benefits {
-    justify-content: center;
+.colorgame{
+    background-color:  rgb(235, 106, 106);
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color:rgba(255, 255, 255, 0.872);
+    font-size: 20px;
+    text-align: left;
 }
 
 .button_container {
@@ -215,7 +171,7 @@ h4 {
     display: flex; 
 }
 
-a#btn_spotify {
+a#btn_link {
     display: inline-block;
     height: 50px;
     box-sizing: border-box;
@@ -233,19 +189,46 @@ a#btn_spotify {
     transition: all .5s;
 }
 
-a#btn_spotify:hover {
+a#btn_link:hover {
     background-color: #ffffff00;
     border: 2px solid #ffffff;
     color: #ffffff;
 }
 
-.text-content {
-    padding-left: 40px;
-    padding-right: 60px;
-    padding-top: 40px;
-    text-align: left;
-}
 
+.colordevelopment {
+    background-color: #db1212;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .text-content p {
     font-size: 18px; 
+}
+
+
+
+.benefits ul {
+    padding: 70px;
+    display: grid;           
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 30px;
+    line-height: 1.4rem; 
+    text-align: center;
+    color: rgb(131, 7, 7); 
+    
+} 
+
+.benefits li {
+    display: flex; 
+    width: 100%;
+
+    @media (max-width: 480px) {
+        li {
+            width: 25%; 
+        }
+    }
+}
+.benefits aside p {
+    font-size: 18px;
+
 }
