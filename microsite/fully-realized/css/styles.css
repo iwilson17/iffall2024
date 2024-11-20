@@ -1,7 +1,45 @@
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    scroll-behavior: smooth;
 }
 
+.color0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 800;
+}
+
+nav {
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    padding-top: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; 
+}
 
 body {
     /* max-width: 800px; */
@@ -434,7 +472,7 @@ h8 {
 
 
 .background {
-    background-image: url(file:///Users/isawilson/Desktop/iffall2024/publish/microsite/practice/images/racing.jpg.avif);
+    background-image: url(file:///Users/isawilson/Desktop/iffall2024/publish/microsite/fully-realized/images/racing.jpg.avif);
     text-decoration: left;
     text-align: left;
     background-size: cover;
