@@ -472,7 +472,7 @@ h8 {
 
 
 .background {
-    background-image: url(file:///Users/isawilson/Desktop/iffall2024/publish/microsite/fully-realized/images/racing.jpg.avif);
+    background-image: url(../images/racing.jpg.avif);
     text-decoration: left;
     text-align: left;
     background-size: cover;
